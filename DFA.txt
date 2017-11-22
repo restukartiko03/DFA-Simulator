@@ -1,0 +1,57 @@
+12
+START_STATE
+SOCKET_CREATED
+BINDED_TO_ADDRESS
+LISTEN_FOR_CONNECTION
+ACCEPT_A_CONNECTION
+RECIEVE_DATA_FROM_USER
+SEND_DATA_TO_USER
+SOCKET_CLOSED
+CONNECTED_TO_SERVER
+SEND_DATA_TO_SERVER
+WAITING_REPLY
+RECIEVE_DATA_FROM_SERVER
+9
+read
+write
+socket
+bind
+connect
+listen
+accept
+close
+wait
+START_STATE
+11
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+20
+1 socket 2
+2 bind 3
+2 connect 9
+3 listen 4
+4 accept 5
+5 read 6
+5 close 8
+6 write 7
+7 read 6
+7 close 8
+8 socket 2
+9 close 8
+9 write 10
+10 close 8
+10 wait 11
+11 close 8
+11 wait 11
+11 read 12
+12 close 8
+12 write 10
